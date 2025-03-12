@@ -33,6 +33,104 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 
 Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
 
+### Satış Yönetim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_ACTPEPL | Satış Faaliyetine Bağlı Kişiler |
+| LG_CATEGLISTS | Kategoriler |
+| LG_CNTSLSMASG | Satış Elemanı-İlgili Kişi Bağlantı |
+| LG_CONTACTS | İlgili Kişiler |
+| LG_CSTVND | Müşteri |
+| LG_CVINDASG | Müşteri-Endüstri Bağlantı |
+| LG_INDUSTRY | Endüstri/Sektör |
+| LG_OFFER | Teklif |
+| LG_SATI | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler |
+| LG_SATIFILTER | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler Filtre Tanımları |
+| LG_SLSACTIV | Satış Faaliyetleri |
+| LG_SLSCLREL | Satış Temsilcisi-Müşteri Bağlantı (CRM Seti) |
+| LG_SLSFILES | Satış Dosyaları |
+| LG_SLSOPPOR | Satış Fırsatları |
+
+### Satış Elemanı Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_SLSMAN | Satış Temsilcileri ve Plasiyerler |
+
+### Yardımcı Bilgi Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_FRGTYPES | Taşıma tipleri |
+| L_SHPAGENT | Taşıyıcı firmalar |
+| L_SHPTYPES | Taşıma şekli |
+| L_TRADGRP | Ticari işlem grubu |
+
+### Kullanıcı İzleme Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_000_SYSLOG | Kullanıcı İzleme |
+
+### Organizasyon Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_ORGDEFS | Organizasyon Şeması |
+| L_ORGDOC | Pozisyon açıklamalarının(uzun text) |
+| L_POSDEFS | Org.Şeması Pozisyonları |
+
+### GTIP Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_GTIP_CODE | Gtip kodları |
+| L_GTIP_DEF | Gtip tanımları |# Logo ERP Veritabanı Dökümantasyonu
+
+Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
+
+Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
+
+## İçindekiler
+
+- [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
+  - [Adres Bilgileri](#adres-bilgileri)
+  - [Banka Bilgileri](#banka-bilgileri)
+  - [Vergi Dairesi Bilgileri](#vergi-dairesi-bilgileri)
+  - [Doküman Yönetim Tabloları](#doküman-yönetim-tabloları)
+  - [Satış Yönetim Tabloları](#satış-yönetim-tabloları)
+  - [Satış Elemanı Tablosu](#satış-elemanı-tablosu)
+  - [Yardımcı Bilgi Tabloları](#yardımcı-bilgi-tabloları)
+  - [Kullanıcı İzleme Tablosu](#kullanıcı-i̇zleme-tablosu)
+  - [Organizasyon Tabloları](#organizasyon-tabloları)
+  - [GTIP Tabloları](#gtip-tabloları)
+- [Kayıt Numaralama Şablonları](#kayıt-numaralama-şablonları)
+- [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
+  - [Adres Bilgileri](#adres-bilgileri-1)
+  - [Banka Bilgileri](#banka-bilgileri-1)
+  - [Vergi Daireleri](#vergi-daireleri)
+  - [GTIP Kodları](#gtip-kodları)
+  - [Taşıyıcı Firmalar](#taşıyıcı-firmalar)
+  - [Teslimat Şekli](#teslimat-şekli)
+  - [Taşıma Tipleri](#taşıma-tipleri)
+  - [Endeks Türleri](#endeks-türleri)
+  - [Fiyat Endeksleri](#fiyat-endeksleri)
+- [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
+- [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
+  - [Fatura Tabloları](#fatura-tabloları)
+  - [Stok Fişleri](#stok-fişleri)
+  - [Stok Kartları](#stok-kartları)
+  - [Cari Hesap Kartları](#cari-hesap-kartları)
+  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
+  - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
+- [Logo Tablo Yapısı](#logo-tablo-yapısı)
+  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
+
+## Genel Tablo Yönetimi
+
+Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
+
 ### Adres Bilgileri
 
 | Tablo Adı | Tablo Açıklaması |
@@ -118,6 +216,68 @@ Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapı
 | L_GTIP_CODE | Gtip kodları |
 | L_GTIP_DEF | Gtip tanımları |
 
+### Doküman Yönetim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_LDOCFOLD | Doküman katalog bilgisi |
+| L_LDOCITEM | Doküman tanımları |
+
+### Satış Yönetim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_ACTPEPL | Satış Faaliyetine Bağlı Kişiler |
+| LG_CATEGLISTS | Kategoriler |
+| LG_CNTSLSMASG | Satış Elemanı-İlgili Kişi Bağlantı |
+| LG_CONTACTS | İlgili Kişiler |
+| LG_CSTVND | Müşteri |
+| LG_CVINDASG | Müşteri-Endüstri Bağlantı |
+| LG_INDUSTRY | Endüstri/Sektör |
+| LG_OFFER | Teklif |
+| LG_SATI | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler |
+| LG_SATIFILTER | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler Filtre Tanımları |
+| LG_SLSACTIV | Satış Faaliyetleri |
+| LG_SLSCLREL | Satış Temsilcisi-Müşteri Bağlantı (CRM Seti) |
+| LG_SLSFILES | Satış Dosyaları |
+| LG_SLSOPPOR | Satış Fırsatları |
+
+### Satış Elemanı Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_SLSMAN | Satış Temsilcileri ve Plasiyerler |
+
+### Yardımcı Bilgi Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_FRGTYPES | Taşıma tipleri |
+| L_SHPAGENT | Taşıyıcı firmalar |
+| L_SHPTYPES | Taşıma şekli |
+| L_TRADGRP | Ticari işlem grubu |
+
+### Kullanıcı İzleme Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| LG_000_SYSLOG | Kullanıcı İzleme |
+
+### Organizasyon Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_ORGDEFS | Organizasyon Şeması |
+| L_ORGDOC | Pozisyon açıklamalarının(uzun text) |
+| L_POSDEFS | Org.Şeması Pozisyonları |
+
+### GTIP Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_GTIP_CODE | Gtip kodları |
+| L_GTIP_DEF | Gtip tanımları |
+
 ## Kayıt Numaralama Şablonları
 
 | Tablo Adı | Tablo Açıklaması |
@@ -128,45 +288,63 @@ Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapı
 
 ### Adres Bilgileri
 
-- L_COUNTRY
-- L_CITY
-- L_TOWN
-- L_POSTCODE
-- L_DISTRICT
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_CITY | İl bilgileri |
+| L_COUNTRY | Ülke bilgileri |
+| L_DISTRICT | Semt bilgileri |
+| L_POSTCODE | Posta kodları |
+| L_TOWN | İlçe bilgileri |
 
 ### Banka Bilgileri
 
-- L_BANKCODE
-- L_BNBRANCH
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_BANKCODE | Banka bilgileri |
+| L_BNBRANCH | Şube bilgileri |
 
 ### Vergi Daireleri
 
-- L_TAXOFFICE
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_TAXOFFICE | Vergi daireleri |
 
 ### GTIP Kodları
 
-- L_GTIP_CODE
-- L_GTIP_DEF
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_GTIP_CODE | Gtip kodları |
+| L_GTIP_DEF | Gtip tanımları |
 
 ### Taşıyıcı Firmalar
 
-- L_SHPAGENT
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_SHPAGENT | Taşıyıcı firmalar |
 
 ### Teslimat Şekli
 
-- L_SHPTYPES
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_SHPTYPES | Teslimat şekli |
 
 ### Taşıma Tipleri
 
-- L_FRGTYPES
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_FRGTYPES | Taşıma tipleri |
 
 ### Endeks Türleri
 
-- L_PRICEINDEXTYP
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_PRICEINDEXTYP | Endeks türleri |
 
 ### Fiyat Endeksleri
 
-- L_PRICEINDEX
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| L_PRICEINDEX | Fiyat endeksleri |
 
 ## Logo Tablo İsimleri
 
@@ -592,6 +770,10 @@ Firma bağımsız tablolar, sistemdeki tüm firmalar için ortak kullanılan tab
    - ACTIVE: Kaydın aktif/pasif durumunu belirtir
    - CODE: Kod alanıdır
    - DEFINITION_: Tanım/açıklama alanıdır
+
+## Katkıda Bulunma
+
+Bu dökümantasyonu geliştirmek ve güncellemek için katkılarınızı bekliyoruz. Pull request göndererek veya issue açarak katkıda bulunabilirsiniz.
 
 ## Katkıda Bulunma
 
