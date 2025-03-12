@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 LogoERP - Veritabanı & Entegrasyon Dökümantasyonu  
 
 Bu repo, **Logo Go3, Logo Wings ve Logo Tiger** ERP sistemlerine yönelik **veritabanı yapıları, tablolar, alan açıklamaları, ilişkiler ve örnek SQL sorguları** içermektedir.  
@@ -28,3 +29,6 @@ Bu repo, **Logo ERP sistemleri ile çalışan yazılımcılar ve entegrasyon gel
 ---
 
 Bu **README.md**, **Markdown formatına uygun** ve **GitHub’da düzgün görüntülenecek** şekilde hazırlanmıştır. 🚀
+=======
+"# Logo ERP Veritabani Dok�mantasyonu" 
+>>>>>>> 57d4a16 (Klasör yapısı oluşturuldu ve README dosyaları eklendi)
