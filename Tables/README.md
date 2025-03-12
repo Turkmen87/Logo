@@ -14,6 +14,46 @@ Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı 
 
 Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
 
+## İçindekiler
+
+- [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
+  - [Adres Bilgileri](#adres-bilgileri)
+  - [Banka Bilgileri](#banka-bilgileri)
+  - [Vergi Dairesi Bilgileri](#vergi-dairesi-bilgileri)
+  - [Doküman Yönetim Tabloları](#doküman-yönetim-tabloları)
+  - [Satış Yönetim Tabloları](#satış-yönetim-tabloları)
+  - [Satış Elemanı Tablosu](#satış-elemanı-tablosu)
+  - [Yardımcı Bilgi Tabloları](#yardımcı-bilgi-tabloları)
+  - [Kullanıcı İzleme Tablosu](#kullanıcı-izleme-tablosu)
+  - [Organizasyon Tabloları](#organizasyon-tabloları)
+  - [GTIP Tabloları](#gtip-tabloları)
+  - [Banka Tabloları](#banka-tabloları)
+  - [Cari Hesap Tabloları](#cari-hesap-tabloları)
+  - [Çek/Senet Tabloları](#çeksenet-tabloları)
+  - [Stok Tabloları](#stok-tabloları)
+  - [Muhasebe Tabloları](#muhasebe-tabloları)
+  - [Kasa Tabloları](#kasa-tabloları)
+  - [Satış/Sipariş Tabloları](#satışsipariş-tabloları)
+  - [Üretim Tabloları](#üretim-tabloları)
+  - [Kalite Kontrol Tabloları](#kalite-kontrol-tabloları)
+  - [Hizmet Tabloları](#hizmet-tabloları)
+  - [Çalışan Tabloları](#çalışan-tabloları)
+  - [Ödeme/Tahsilat Tabloları](#ödemetahsilat-tabloları)
+  - [Özellik Tabloları](#özellik-tabloları)
+  - [Diğer Tablolar](#diğer-tablolar)
+  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
+- [Kayıt Numaralama Şablonları](#kayıt-numaralama-şablonları)
+- [Logo Çek Tabloları](#logo-çek-tabloları)
+- [Bazı Önemli Tabloların Önemli Alanları](#bazı-önemli-tabloların-önemli-alanları)
+  - [Fatura Tabloları](#fatura-tabloları)
+  - [Stok Fişleri](#stok-fişleri)
+  - [Stok Kartları](#stok-kartları)
+  - [Cari Hesap Kartları](#cari-hesap-kartları)
+  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
+  - [Çek/Senet İşlemleri](#çeksenet-işlemleri)
+- [Logo Tablo Yapısı Sınıflandırması](#logo-tablo-yapısı-sınıflandırması)
+- [Logo Tablo İsimleri Listesi](#logo-tablo-isimleri-listesi)
+
 ## Genel Tablo Yönetimi
 
 ### Adres Bilgileri
