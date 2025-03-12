@@ -8,7 +8,29 @@ Bu klasör, **LDDS.xls dosyasındaki bilgilerden yola çıkarak hazırlanmış v
 - **İndeksler** – Her tablonun indeks bilgileri  
 - **İlişkiler** – Tablolar arası ilişkiler  
 
+- [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
+- [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
+- [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
+- [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
+  - [Fatura Tabloları](#fatura-tabloları)
+  - [Stok Fişleri](#stok-fişleri)
+  - [Stok Kartları](#stok-kartları)
+  - [Cari Hesap Kartları](#cari-hesap-kartları)
+  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
+  - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
+- [Logo Tablo Yapısı](#logo-tablo-yapısı)
+  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
+
 # Logo ERP Veritabanı Dökümantasyonu
+
+Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
+
+Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
+
+
+## Genel Tablo Yönetimi
+
+Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
 
 Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
 
@@ -17,7 +39,27 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 ## İçindekiler
 
 - [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
+  - [Adres Bilgileri](#adres-bilgileri)
+  - [Banka Bilgileri](#banka-bilgileri)
+  - [Vergi Dairesi Bilgileri](#vergi-dairesi-bilgileri)
+  - [Doküman Yönetim Tabloları](#doküman-yönetim-tabloları)
+  - [Satış Yönetim Tabloları](#satış-yönetim-tabloları)
+  - [Satış Elemanı Tablosu](#satış-elemanı-tablosu)
+  - [Yardımcı Bilgi Tabloları](#yardımcı-bilgi-tabloları)
+  - [Kullanıcı İzleme Tablosu](#kullanıcı-i̇zleme-tablosu)
+  - [Organizasyon Tabloları](#organizasyon-tabloları)
+  - [GTIP Tabloları](#gtip-tabloları)
+- [Kayıt Numaralama Şablonları](#kayıt-numaralama-şablonları)
 - [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
+  - [Adres Bilgileri](#adres-bilgileri-1)
+  - [Banka Bilgileri](#banka-bilgileri-1)
+  - [Vergi Daireleri](#vergi-daireleri)
+  - [GTIP Kodları](#gtip-kodları)
+  - [Taşıyıcı Firmalar](#taşıyıcı-firmalar)
+  - [Teslimat Şekli](#teslimat-şekli)
+  - [Taşıma Tipleri](#taşıma-tipleri)
+  - [Endeks Türleri](#endeks-türleri)
+  - [Fiyat Endeksleri](#fiyat-endeksleri)
 - [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
 - [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
   - [Fatura Tabloları](#fatura-tabloları)
@@ -32,7 +74,6 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 ## Genel Tablo Yönetimi
 
 Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
-
 ### Satış Yönetim Tabloları
 
 | Tablo Adı | Tablo Açıklaması |
@@ -87,50 +128,6 @@ Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapı
 |-----------|------------------|
 | L_GTIP_CODE | Gtip kodları |
 | L_GTIP_DEF | Gtip tanımları |# Logo ERP Veritabanı Dökümantasyonu
-
-Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
-
-Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
-
-## İçindekiler
-
-- [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
-  - [Adres Bilgileri](#adres-bilgileri)
-  - [Banka Bilgileri](#banka-bilgileri)
-  - [Vergi Dairesi Bilgileri](#vergi-dairesi-bilgileri)
-  - [Doküman Yönetim Tabloları](#doküman-yönetim-tabloları)
-  - [Satış Yönetim Tabloları](#satış-yönetim-tabloları)
-  - [Satış Elemanı Tablosu](#satış-elemanı-tablosu)
-  - [Yardımcı Bilgi Tabloları](#yardımcı-bilgi-tabloları)
-  - [Kullanıcı İzleme Tablosu](#kullanıcı-i̇zleme-tablosu)
-  - [Organizasyon Tabloları](#organizasyon-tabloları)
-  - [GTIP Tabloları](#gtip-tabloları)
-- [Kayıt Numaralama Şablonları](#kayıt-numaralama-şablonları)
-- [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
-  - [Adres Bilgileri](#adres-bilgileri-1)
-  - [Banka Bilgileri](#banka-bilgileri-1)
-  - [Vergi Daireleri](#vergi-daireleri)
-  - [GTIP Kodları](#gtip-kodları)
-  - [Taşıyıcı Firmalar](#taşıyıcı-firmalar)
-  - [Teslimat Şekli](#teslimat-şekli)
-  - [Taşıma Tipleri](#taşıma-tipleri)
-  - [Endeks Türleri](#endeks-türleri)
-  - [Fiyat Endeksleri](#fiyat-endeksleri)
-- [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
-- [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
-  - [Fatura Tabloları](#fatura-tabloları)
-  - [Stok Fişleri](#stok-fişleri)
-  - [Stok Kartları](#stok-kartları)
-  - [Cari Hesap Kartları](#cari-hesap-kartları)
-  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
-  - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
-- [Logo Tablo Yapısı](#logo-tablo-yapısı)
-  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
-
-## Genel Tablo Yönetimi
-
-Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
-
 ### Adres Bilgileri
 
 | Tablo Adı | Tablo Açıklaması |
