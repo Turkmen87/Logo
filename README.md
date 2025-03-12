@@ -18,27 +18,6 @@ Bu repo, **Logo Go3, Logo Wings ve Logo Tiger** ERP sistemlerine yönelik **veri
 
 ## 📂 Klasör Yapısı  
 
-LogoERP
-│── README.md # Ana repo açıklaması
-│
-├── LDDS_Files/
-│ ├── README.md # LDDS dosyaları hakkında açıklama
-│ ├── LDDS.xls
-│
-├── Tables/
-│ ├── README.md # Veritabanı tabloları hakkında açıklama
-│ ├── WHLIST.md # Örnek tablo dökümanı
-│
-├── Queries/
-│ ├── README.md # SQL sorguları hakkında açıklama
-│ ├── sample_query.sql # Örnek SQL sorgusu
-│
-└── Examples/
-├── README.md # Örnek kodlar hakkında açıklama
-├── example.cs # Örnek C# kodu
-├── example.py # Örnek Python kodu
-
-
 ## 📌 Kullanım  
 Bu repo, **Logo ERP sistemleri ile çalışan yazılımcılar ve entegrasyon geliştiricileri** için hazırlanmıştır.  
 
