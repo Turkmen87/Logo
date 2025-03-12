@@ -16,8 +16,6 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 
 ## Genel Tablo Yönetimi
 
-Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
-
 ### Adres Bilgileri
 
 | Tablo Adı | Tablo Açıklaması |
