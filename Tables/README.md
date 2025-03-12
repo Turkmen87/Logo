@@ -9,36 +9,6 @@ Bu klasör, **LDDS.xls dosyasındaki bilgilerden yola çıkarak hazırlanmış v
 - **İlişkiler** – Tablolar arası ilişkiler  
 
 - [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
-- [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
-- [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
-- [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
-  - [Fatura Tabloları](#fatura-tabloları)
-  - [Stok Fişleri](#stok-fişleri)
-  - [Stok Kartları](#stok-kartları)
-  - [Cari Hesap Kartları](#cari-hesap-kartları)
-  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
-  - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
-- [Logo Tablo Yapısı](#logo-tablo-yapısı)
-  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
-
-# Logo ERP Veritabanı Dökümantasyonu
-
-Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
-
-Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
-
-
-## Genel Tablo Yönetimi
-
-Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
-
-Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
-
-Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
-
-## İçindekiler
-
-- [Genel Tablo Yönetimi](#genel-tablo-yönetimi)
   - [Adres Bilgileri](#adres-bilgileri)
   - [Banka Bilgileri](#banka-bilgileri)
   - [Vergi Dairesi Bilgileri](#vergi-dairesi-bilgileri)
@@ -70,6 +40,32 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
   - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
 - [Logo Tablo Yapısı](#logo-tablo-yapısı)
   - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
+- [Kuruluş Bilgileri Tabloları](#kuruluş-bilgileri-tabloları)
+- [Logo Tablo İsimleri](#logo-tablo-i̇simleri)
+- [Önemli Tabloların Detayları](#önemli-tabloların-detayları)
+  - [Fatura Tabloları](#fatura-tabloları)
+  - [Stok Fişleri](#stok-fişleri)
+  - [Stok Kartları](#stok-kartları)
+  - [Cari Hesap Kartları](#cari-hesap-kartları)
+  - [Cari Hesap Hareketleri](#cari-hesap-hareketleri)
+  - [Çek/Senet İşlemleri](#çeksenet-i̇şlemleri)
+- [Logo Tablo Yapısı](#logo-tablo-yapısı)
+  - [Firma Bağımsız Tablolar](#firma-bağımsız-tablolar)
+
+# Logo ERP Veritabanı Dökümantasyonu
+
+Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
+
+Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
+
+
+## Genel Tablo Yönetimi
+
+Versiyon geçişlerinde genel tablo yönetiminden gerekli güncellemelerin yapılmaması durumunda, işlemler sırasında bulunamayan dosya olarak program tarafından hata mesajı ile kullanıcı uyarılır. Aşağıdaki liste ile, mesajdaki dosya için hangi tabloların güncellenmesi gerektiği bilgisine ulaşılabilecektir.
+
+Bu dökümantasyon, LogoWings ve LogoTiger ERP sistemlerinin MS SQL veritabanı yapısını detaylı olarak açıklamaktadır. Logo ERP sisteminin veritabanı yapısı, tablo isimleri, alan açıklamaları ve tablolar arası ilişkileri içermektedir.
+
+Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için bir başvuru kaynağı olarak hazırlanmıştır.
 
 ## Genel Tablo Yönetimi
 
