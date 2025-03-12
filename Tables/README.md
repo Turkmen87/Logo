@@ -1,4 +1,286 @@
-# Logo ERP Veritabanı Tabloları  
+### Adres Bilgileri
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_COUNTRY](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_COUNTRY) | Ülkeler |
+| [L_CITY](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_CITY) | Şehirler |
+| [L_TOWN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TOWN) | İlçe bilgileri |
+| [L_DISTRICT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_DISTRICT) | Semt bilgileri |
+| [L_POSTCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_POSTCODE) | Posta kodları |
+| [L_BANKCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_BANKCODE) | Banka bilgileri |
+| [L_BNBRANCH](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_BNBRANCH) | Şube bilgileri |
+| [L_TAXOFFICE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TAXOFFICE) | Vergi daireleri |
+| [L_SHPAGENT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_SHPAGENT) | Sevkiyat firmaları |
+| [L_SHPTYPES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_SHPTYPES) | Sevkiyat türleri |
+| [L_FRGTYPES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_FRGTYPES) | Taşıma tipleri |
+| [L_TRADGRP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TRADGRP) | Ticari işlem grupları |
+| [L_GOUSERS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_GOUSERS) | Kullanıcılar |
+| [L_CAPIDEF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_CAPIDEF) | Kuruluş bilgileri (ambar, işyer, fabrika vb.) |
+| [L_NET](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_NET) | Network kontrolü (kimlerin hangi firma ve dönemle çalıştığı) |
+| [L_CDBTMP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_CDBTMP) | Form boyutları |
+| [L_DAILYEXCHANGES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_DAILYEXCHANGES) | Günlük döviz kurları |
+| [L_ORGDEFS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_ORGDEFS) | Organizasyon Şeması |
+| [L_POSDEFS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_POSDEFS) | Org.Şeması Pozisyonları |
+| [L_ORGDOC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_ORGDOC) | Pozisyon açıklamalarının(uzun text) |
+| [L_GTIP_CODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_GTIP_CODE) | Gtip kodları |
+| [L_GTIP_DEF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_GTIP_DEF) | Gtip tanımları |
+| [L_LDOCNUM](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCNUM) | Döküman numaralama şablonları |
+| [L_LDOCFOLD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCFOLD) | Doküman katalog bilgisi |
+| [L_LDOCITEM](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCITEM) | Doküman tanımları |
+| [L_RPFILTSXXX](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_RPFILTS) | Kaydedilen rapor filtreleri |
+| [L_RPLAYS_XXX](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_RPLAYS) | Kaydedilen rapor tasarımları |
+| [L_PRICEINDEXTYP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_PRICEINDEXTYP) | Endeks türleri |
+| [L_PRICEINDEX](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_PRICEINDEX) | Fiyat endeksleri |/main/Tables/L_COUNTRY) | Ülke bilgileri |
+| [L_CITY](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_CITY) | İl bilgileri |
+| [L_POSTCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_POSTCODE) | Posta kodları |
+| [L_TOWN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TOWN) | İlçe bilgileri |
+| [L_DISTRICT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_DISTRICT) | Semt bilgileri |
+
+### Banka Bilgileri
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_BANKCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_BANKCODE) | Banka bilgileri |
+| [L_BNBRANCH](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_BNBRANCH) | Şube bilgileri |
+
+### Vergi Dairesi Bilgileri
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_TAXOFFICE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TAXOFFICE) | Vergi daireleri |
+
+### Doküman Yönetim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_LDOCFOLD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCFOLD) | Doküman katalog bilgisi |
+| [L_LDOCITEM](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCITEM) | Doküman tanımları |
+
+### Satış Yönetim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_ACTPEPL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ACTPEPL) | Satış Faaliyetine Bağlı Kişiler |
+| [LG_CATEGLISTS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CATEGLISTS) | Kategoriler |
+| [LG_CNTSLSMASG](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CNTSLSMASG) | Satış Elemanı-İlgili Kişi Bağlantı |
+| [LG_CONTACTS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CONTACTS) | İlgili Kişiler |
+| [LG_CSTVND](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CSTVND) | Müşteri |
+| [LG_CVINDASG](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CVINDASG) | Müşteri-Endüstri Bağlantı |
+| [LG_INDUSTRY](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_INDUSTRY) | Endüstri/Sektör |
+| [LG_OFFER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_OFFER) | Teklif |
+| [LG_SATI](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SATI) | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler |
+| [LG_SATIFILTER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SATIFILTER) | Satış Faaliyetleri(m) Penceresi Genel ve Kişisel İşlemler Filtre Tanımları |
+| [LG_SLSACTIV](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSACTIV) | Satış Faaliyetleri |
+| [LG_SLSCLREL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSCLREL) | Satış Temsilcisi-Müşteri Bağlantı (CRM Seti) |
+| [LG_SLSFILES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSFILES) | Satış Dosyaları |
+| [LG_SLSOPPOR](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSOPPOR) | Satış Fırsatları |
+
+### Satış Elemanı Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_SLSMAN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSMAN) | Satış Temsilcileri ve Plasiyerler |
+
+### Yardımcı Bilgi Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_FRGTYPES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_FRGTYPES) | Taşıma tipleri |
+| [L_SHPAGENT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_SHPAGENT) | Taşıyıcı firmalar |
+| [L_SHPTYPES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_SHPTYPES) | Taşıma şekli |
+| [L_TRADGRP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_TRADGRP) | Ticari işlem grubu |
+
+### Kullanıcı İzleme Tablosu
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_000_SYSLOG](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SYSLOG) | Kullanıcı İzleme |
+
+### Organizasyon Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_ORGDEFS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_ORGDEFS) | Organizasyon Şeması |
+| [L_ORGDOC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_ORGDOC) | Pozisyon açıklamalarının(uzun text) |
+| [L_POSDEFS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_POSDEFS) | Org.Şeması Pozisyonları |
+
+### GTIP Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_GTIP_CODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_GTIP_CODE) | Gtip kodları |
+| [L_GTIP_DEF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_GTIP_DEF) | Gtip tanımları |
+
+### Banka Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_BNFICHE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BNFICHE) | Banka fişleri |
+| [LG_XXX_XX_BNFLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BNFLINE) | Banka hareketleri |
+| [LG_XXX_XX_BNTOTFIL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BNTOTFIL) | Banka aylık toplamları |
+| [LG_XXX_BANKACC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BANKACC) | Banka hesapları |
+| [LG_XXX_BNCARD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BNCARD) | Bankalar |
+
+### Cari Hesap Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_CLFICHE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLFICHE) | Cari hesap fişleri |
+| [LG_XXX_XX_CLFLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLFLINE) | Cari hesap hareketleri |
+| [LG_XXX_XX_CLRNUMS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLRNUMS) | Cari hesap risk tabloları |
+| [LG_XXX_XX_CLTOTFIL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLTOTFIL) | Cari hesap aylık toplamları |
+| [LG_XXX_CLCARD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLCARD) | Cari hesap kartları |
+| [LG_XXX_CLINTEL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CLINTEL) | Cari hesap istihbarat bilgileri |
+
+### Çek/Senet Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_CSCARD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CSCARD) | Çek/Senet kartları |
+| [LG_XXX_XX_CSROLL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CSROLL) | Çek/Senet bordroları |
+| [LG_XXX_XX_CSTRANS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CSTRANS) | Çek/Senet hareketleri |
+
+### Stok Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_STFICHE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_STFICHE) | Stok fişleri |
+| [LG_XXX_XX_STLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_STLINE) | Malzeme hareketleri |
+| [LG_XXX_XX_STINVTOT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_STINVTOT) | Günlük malzeme ambar toplamları |
+| [LG_XXX_XX_STINVENS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_STINVENS) | Malzeme alış/satış aylık toplamları |
+| [LG_XXX_ITEMS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ITEMS) | Malzemeler |
+| [LG_XXX_ITEMSUBS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ITEMSUBS) | Malzeme alternatifleri |
+| [LG_XXX_INVDEF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_INVDEF) | Malzeme-Ambar bilgileri |
+| [LG_XXX_LOCATION](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_LOCATION) | Stok yerleri |
+| [LG_XXX_STCOMPLN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_STCOMPLN) | Karma koli satırları |
+
+### Muhasebe Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_EMFICHE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMFICHE) | Muhasebe fişleri |
+| [LG_XXX_XX_EMFLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMFLINE) | Muhasebe hareketleri |
+| [LG_XXX_XX_EMUHTOT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMUHTOT) | Muhasebe aylık toplamları |
+| [LG_XXX_EMUHACC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMUHACC) | Muhasebe hesapları |
+| [LG_XXX_CRDACREF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CRDACREF) | Kart-Muhasbe kodları |
+
+### Kasa Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_CSHTOTS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CSHTOTS) | Kasa aylık toplamları |
+| [LG_XXX_XX_KSLINES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_KSLINES) | Kasa işlemleri |
+| [LG_XXX_KSCARD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_KSCARD) | Kasalar |
+
+### Satış/Sipariş Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_INVOICE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_INVOICE) | Faturalar |
+| [LG_XXX_XX_ORFICHE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ORFICHE) | Sipariş fişleri |
+| [LG_XXX_XX_ORFLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ORFLINE) | Sipariş hareketleri |
+| [LG_XXX_SLSMAN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSMAN) | Satış elemanları |
+| [LG_XXX_SLSCLREL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLSCLREL) | Satış elemanı-Cari hesap ilişkisi |
+| [LG_XXX_TARGETS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_TARGETS) | Satış elemanı hareketleri |
+| [LG_XXX_ROUTE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ROUTE) | Satış yönetim raporları |
+| [LG_XXX_ROUTETRS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ROUTETRS) | Satış rota satırları |
+| [LG_XXX_PRCLIST](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PRCLIST) | Alış/Satış fiyatları |
+| [LG_XXX_ASCOND](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ASCOND) | Alış/Satış koşulları |
+
+### Üretim Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_PRODORD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PRODORD) | Üretim emirleri |
+| [LG_XXX_ROUTING](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ROUTING) | Üretim rotaları |
+| [LG_XXX_RTNGLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_RTNGLINE) | Üretim rota satırları |
+| [LG_XXX_BOMASTER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BOMASTER) | Ürün reçeteleri |
+| [LG_XXX_BOMLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BOMLINE) | Ürün reçete satırları |
+| [LG_XXX_BOMREVSN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_BOMREVSN) | Ürün reçete revizyonları |
+| [LG_XXX_WORKSTAT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WORKSTAT) | İş istasyonları |
+| [LG_XXX_WSGRPF](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WSGRPF) | İş istasyonu grupları |
+| [LG_XXX_OPERTION](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_OPERTION) | Operasyonlar |
+| [LG_XXX_OCCUPATN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_OCCUPATN) | Kaynak kullanımları (üretim) |
+
+### Kalite Kontrol Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_QCSET](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_QCSET) | Kalite kontrol setleri |
+| [LG_XXX_QCSLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_QCSLINE) | Kalite kontrol satırları |
+| [LG_XXX_QCLVAL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_QCLVAL) | Kalite kontrol değerleri |
+| [LG_XXX_QASGN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_QASGN) | Kalite kontrol hareketi-Kalite kontrol ataması |
+| [LG_XXX_XX_SLQCASGN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLQCASGN) | Kalite kontrol hareketleri |
+
+### Hizmet Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_SRVCARD](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SRVCARD) | Hizmet kartları |
+| [LG_XXX_SRVUNITA](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SRVUNITA) | Hizmet kaydı-Birim ataması |
+| [LG_XXX_XX_SRVNUMS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SRVNUMS) | Aylık hizmet toplamları |
+| [LG_XXX_XX_SRVTOT](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SRVTOT) | Aylık hizmet alış/satış toplamları |
+
+### Çalışan Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_EMPLOYEE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMPLOYEE) | Çalışanlar |
+| [LG_XXX_EMPGROUP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMPGROUP) | Çalışan grubu |
+| [LG_XXX_EMGRPASS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMGRPASS) | Çalışan-Grup ataması |
+| [LG_XXX_LABORREQ](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_LABORREQ) | Çalışan ihtiyaçları |
+
+### Ödeme/Tahsilat Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_PAYPLANS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PAYPLANS) | Ödeme planları |
+| [LG_XXX_PAYLINES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PAYLINES) | Ödeme plan satırları |
+| [LG_XXX_XX_PAYTRANS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PAYTRANS) | Ödeme/Tahsilat hareketleri |
+
+### Özellik Tabloları
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_CHARCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CHARCODE) | Özellik kodları |
+| [LG_XXX_CHARVAL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CHARVAL) | Özellik değerleri |
+| [LG_XXX_CHARASGN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_CHARASGN) | Malzeme özellik ataması |
+| [LG_XXX_SELCHVAL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SELCHVAL) | Malzeme-Özellik değerleri |
+| [LG_XXX_OPATTASG](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_OPATTASG) | Operasyon-Özellik ataması |
+| [LG_XXX_WSATTASG](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WSATTASG) | İş ist.-Özellik ataması |
+| [LG_XXX_WSATTVAS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WSATTVAS) | İş ist.-Özellik değeri ataması |
+| [LG_XXX_WSCHCODE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WSCHCODE) | İş istasyonu özellikleri |
+| [LG_XXX_WSCHVAL](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_WSCHVAL) | İş istasyonu özellik değerleri |
+
+### Diğer Tablolar
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [LG_XXX_XX_TRANSAC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_TRANSAC) | Firma dönem bilgileri |
+| [LG_XXX_XX_PRODUCER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PRODUCER) | Müstahsil faturası |
+| [LG_XXX_XX_PRDCOST](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PRDCOST) | Maliyet dönem kapama kayıtları |
+| [LG_XXX_XX_SERILOTN](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SERILOTN) | Malzeme seri lot no. bilgileri |
+| [LG_XXX_XX_SLTRANS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SLTRANS) | Seri/Lot hareketleri |
+| [LG_XXX_XX_PERDOC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PERDOC) | Döküman bilgileri (örnek malzeme resmi) |
+| [LG_XXX_XX_FOLDER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_FOLDER) | Döküman katalog bilgileri (watermark varsa) |
+| [LG_XXX_FIRMDOC](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_FIRMDOC) | Döküman katalog girişi(watermark) |
+| [LG_XXX_DECARDS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_DECARDS) | İndirim/Masraf kartları |
+| [LG_XXX_PRCARDS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_PRCARDS) | Promosyon kartları |
+| [LG_XXX_SPECODES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_SPECODES) | Özel kodlar |
+| [LG_XXX_ACCCODES](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_ACCCODES) | Entegrasyon bağlantı kodları |
+| [LG_XXX_LNGEXCSETS](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_LNGEXCSETS) | Bazı kayıtların diğer dillerdeki açıklamaları |
+| [LG_XXX_LOGREP](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_LOGREP) | LOG (izleme) kaydı |
+| [LG_XXX_TRGPAR](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_TRGPAR) | Trigger parametreleri |
+| [LG_XXX_DISPLINE](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_DISPLINE) | İş emirleri |
+| [LG_XXX_FAREGIST](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_FAREGIST) | Sabit kıymet kayıtları |
+| [LG_XXX_FAYEAR](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_FAYEAR) | Sabit kıymet yıllık kaydı |
+| [LG_XXX_EMCENTER](https://github.com/Turkmen87/LogoErp/tree/main/Tables/LG_EMCENTER) | Masraf malzemeleri |
+
+### Firma Bağımsız Tablolar
+
+| Tablo Adı | Tablo Açıklaması |
+|-----------|------------------|
+| [L_COUNTRY](https://github.com/Turkmen87/LogoErp/tree# Logo ERP Veritabanı Tabloları  
 
 Bu klasör, **LDDS.xls dosyasındaki bilgilerden yola çıkarak hazırlanmış veritabanı tabloları** ile ilgili dökümanları içerir.  
 
@@ -344,7 +626,7 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 
 | Tablo Adı | Tablo Açıklaması |
 |-----------|------------------|
-| L_LDOCNUM | Kayıt Numaralama Şablonları |
+| [L_LDOCNUM](https://github.com/Turkmen87/LogoErp/tree/main/Tables/L_LDOCNUM) | Kayıt Numaralama Şablonları |
 
 ## Logo Çek Tabloları
 
