@@ -132,13 +132,24 @@ static class LogoErpTarihSaatDonusturucu
     }
 }
 
+# LogoErp Veritabanı Tarih ve Saat Dönüşüm Fonksiyonları
+
+Aşağıda, `LogoErp` veritabanındaki tarih ve saat formatlarını yönetmek için kullanılan C# kodu bulunmaktadır. Bu kod, tarih ve saat verilerini sayısal (tamsayı) formata dönüştürmeyi ve tersine dönüştürmeyi sağlar. Kodun her bir fonksiyonu açıklamalarla birlikte verilmiştir.
+
+---
+
+## 1. `TarihiIntYap`
+
+Bu fonksiyon, bir `DateTime` nesnesini LogoErp veritabanı için sayısal bir tarihe dönüştürür.
+
 ```csharp
 public static int TarihiIntYap(DateTime tarih)
 {
-    int yil = tarih.Year;
-    int ay = tarih.Month;
-    int gun = tarih.Day;
+    int yil = tarih.Year; // Yılı alıyoruz
+    int ay = tarih.Month; // Ayı alıyoruz
+    int gun = tarih.Day; // Günü alıyoruz
 
     return 65536 * yil + 256 * ay + gun;
 }
+
 
