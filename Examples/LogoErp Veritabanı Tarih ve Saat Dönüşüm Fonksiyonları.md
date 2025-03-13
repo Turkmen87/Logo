@@ -109,6 +109,7 @@ static class LogoErpTarihSaatDonusturucu
     }
 }
 ```
+## Fonksiyonlar
 
 ```csharp
 
