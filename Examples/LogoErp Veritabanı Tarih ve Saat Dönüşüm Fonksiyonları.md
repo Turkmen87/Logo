@@ -108,3 +108,15 @@ static class LogoErpTarihSaatDonusturucu
         return string.Format("{0:D2}:{1:D2}:{2:D2}", saat, dakika, saniye);
     }
 }
+
+```csharp
+
+public static int TarihiIntYap(DateTime tarih)
+{
+    int yil = tarih.Year;
+    int ay = tarih.Month;
+    int gun = tarih.Day;
+
+    return 65536 * yil + 256 * ay + gun;
+}
+
