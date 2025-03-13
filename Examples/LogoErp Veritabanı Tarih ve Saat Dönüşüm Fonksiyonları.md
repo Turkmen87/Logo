@@ -121,3 +121,64 @@ public static int TarihiIntYap(DateTime tarih)
     return 65536 * yil + 256 * ay + gun;
 }
 
+```
+
+```csharp
+public static DateTime IntiTarihYap(int tarihInt)
+{
+    int yil = tarihInt / 65536;
+    int ay = (tarihInt % 65536) / 256;
+    int gun = (tarihInt % 65536) % 256;
+
+    return new DateTime(yil, ay, gun);
+}
+```
+
+```csharp
+public static int SaatiIntYap(string saat)
+{
+    int sonuc = 0;
+    if (!string.IsNullOrEmpty(saat))
+    {
+        string[] saatParcalari = saat.Split(':');
+        for (int i = 0; i < saatParcalari.Length; i++)
+        {
+            int deger = Convert.ToInt32(saatParcalari[i]);
+            switch (i)
+            {
+                case 0:
+                    sonuc += deger * 65536 * 256;
+                    break;
+                case 1:
+                    sonuc += deger * 65536;
+                    break;
+                case 2:
+                    sonuc += deger * 256;
+                    break;
+            }
+        }
+    }
+    return sonuc;
+}
+```
+
+```csharp
+public static int SaatiIntYap(TimeSpan saat)
+{
+    int sonuc = 0;
+    sonuc += saat.Hours * 65536 * 256;
+    sonuc += saat.Minutes * 65536;
+    sonuc += saat.Seconds * 256;
+    return sonuc;
+}
+```
+
+```csharp
+public static string IntiSaatYap(int saatInt)
+{
+    int saat = (saatInt - (saatInt % 65536)) / 65536 / 256;
+    int dakika = ((saatInt - (saatInt % 65536)) / 65536 - saat * 256);
+    int saniye = ((saatInt % 65536) - ((saatInt % 65536) % 256)) / 256;
+
+    return string.Format("{0:D2}:{1:D2}:{2:D2}", saat, dakika, saniye);
+}
