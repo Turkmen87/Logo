@@ -132,3 +132,13 @@ static class LogoErpTarihSaatDonusturucu
     }
 }
 
+```csharp
+public static int TarihiIntYap(DateTime tarih)
+{
+    int yil = tarih.Year;
+    int ay = tarih.Month;
+    int gun = tarih.Day;
+
+    return 65536 * yil + 256 * ay + gun;
+}
+
