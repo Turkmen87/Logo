@@ -221,8 +221,8 @@ Bu repo, geliştirici, veri analisti, danışman ve sistem yöneticileri için b
 
 | Tablo Adı | Tablo Açıklaması |
 |-----------|------------------|
-| [LG_XXX_PRODORD](../../Tables/LG_PRODORD) | Üretim emirleri |
-| [LG_XXX_ROUTING](../../Tables/LG_ROUTING) | Üretim rotaları |
+| [LG_XXX_PRODORD](/Tables/LG_PRODORD) | Üretim emirleri |
+| [LG_XXX_ROUTING](/LG_ROUTING) | Üretim rotaları |
 | [LG_XXX_RTNGLINE](../../Tables/LG_RTNGLINE) | Üretim rota satırları |
 | [LG_XXX_BOMASTER](../../Tables/LG_BOMASTER) | Ürün reçeteleri |
 | [LG_XXX_BOMLINE](../../Tables/LG_BOMLINE) | Ürün reçete satırları |
